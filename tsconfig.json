@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "esnext", // 모듈 형식 ES6
+    "moduleResolution": "node", // 모듈 해석 Node
+    "esModuleInterop": true, // commonJS 모듈을 ES6로 import
+    "sourceMap": true, // 디버깅 맵
+    "baseUrl": "src",
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
